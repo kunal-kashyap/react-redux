@@ -1,0 +1,103 @@
+/*  User Directory
+-----------------------*/
+.user-list-main table{
+    background: #fafafa;
+    width: 300px;
+    margin: auto;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,0.14);
+}
+
+.user-list-main table th{
+    background: #666;
+    color:#fff;
+}
+
+
+.user-card{
+    width:500px;
+    margin:40px auto;
+    background: #f5f5f5;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    padding: 0px 15px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.user-card .user-img{
+    height:auto;
+    padding: 5px;
+    border:1px solid #e5e5e5;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.user-card .user-img img{
+    max-height: 100%;
+}
+
+.edit-user{
+    position: absolute;
+    background: #666;
+    color:#fff;
+    font-weight:bold;
+    right:0px;
+    top:0px;
+    padding:7px;
+    border-bottom-left-radius: 3px;
+    cursor: pointer;
+}
+
+.edit-user a{
+    color:#fff;
+}
+
+.navbar-nav .active-nav{
+    background: #eee;
+}
+
+
+/*  Cart
+---------------*/
+
+.cart-list {
+    margin-top: 30px;
+}
+
+.cart-list ul.list-group {
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.cart-list .list-group-item {
+    background: #deeed8;
+    border-radius: 0px;
+}
+
+.total-bar {
+    background-color: #357bb8;
+    margin-top: 20px;
+    border-radius:3px;
+    padding: 10px;
+    color:#fff;
+}
+
+.quantity-change{
+    font-size:20px;
+    color:green;
+}
+
+.quantity-change span{
+    display: inline-block;
+    margin:0px 10px;
+    cursor: pointer;
+}
+
+.remove-item{
+    color:red;
+    font-size: 20px;
+    cursor: pointer;
+}
