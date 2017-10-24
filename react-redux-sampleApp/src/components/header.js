@@ -10,7 +10,7 @@ class Header extends Component {
                         <a className="navbar-brand">React Sample Apps</a>
                     </div>
                     <ul className="nav navbar-nav">
-                        <li><NavLink exact activeClassName="active-nav" to="/userlist">User list</NavLink></li>
+                        <li><NavLink exact activeClassName="active-nav" to="/">User list</NavLink></li>
                         <li><NavLink activeClassName="active-nav" to="/cart">Cart</NavLink></li>
                     </ul>
                 </div>
