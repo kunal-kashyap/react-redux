@@ -3,8 +3,8 @@ const fetchData = () => {
         {
             type: 'FETCH_DATA',
             users: [
-                {userId: 1 , name: 'Kunal Kashyap', age: 26, gender : 'Male', city : 'New Delhi' },
-                {userId: 2 ,name: 'Prabhjot', age: 23, gender : 'Male' , city : 'Kanpur' },
+                {userId: 1 , name: 'Rey Misterio', age: 42, gender : 'Male', city : 'Toronto' },
+                {userId: 2 ,name: 'Triple H', age: 45, gender : 'Male' , city : 'Colorado' },
             ]
         }
     )
